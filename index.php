@@ -36,6 +36,11 @@ echo implode(' ', \Classes\LongestIncreasingSubsequence::main(
     [3, 14, 5, 12, 15, 7, 8, 9, 11, 10, 1,]
 ));
 
-Echo '<h2>Task 2</h2>';
 
-$json = '{"Dolphin", "Lion"}';
+
+
+
+Echo '<h2>Task 2</h2>';
+$json = '["Dolphin", "Lion", "Eagle", "Bee", "Tiger"]';
+$a = new \Classes\Caller($json);
+$a->output();

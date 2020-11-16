@@ -1,17 +1,17 @@
 <?php 
 
-namespace CLasses\Animals
+namespace Classes\Animals;
 
-Class Dolphin
+class Dolphin
 {
-    public $age;
+    public $age = 5;
 
-    public function sleep(): string
+    public function sleep()
     {
         return 'zzzzzz';
     }
 
-    public function swim(): string
+    public function swim()
     {
         return 'splah';
     }

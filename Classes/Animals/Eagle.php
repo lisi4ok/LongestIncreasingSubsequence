@@ -2,9 +2,9 @@
 
 namespace Classes\Animals;
 
-class Lion
+class Eagle
 {
-    public $age = 10;
+    public $age = 3;
 
     /**
      * @return string
@@ -17,9 +17,9 @@ class Lion
     /**
      * @return string
      */
-    public function roar()
+    public function fly()
     {
-        return 'wrrrrr';
+        return 'whoohooo';
     }
 
     /**
