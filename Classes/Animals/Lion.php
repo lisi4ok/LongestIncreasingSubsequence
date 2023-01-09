@@ -4,7 +4,7 @@ namespace Classes\Animals;
 
 class Lion
 {
-    use AnimalTrait, EatableTrait;
+    use SleepableTrait, EatableTrait;
 
     public $age = 10;
 
