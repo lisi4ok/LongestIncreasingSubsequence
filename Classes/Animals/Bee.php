@@ -6,7 +6,7 @@ use AnimalTrait
 
 class Bee
 {
-    use AnimalTrait;
+    use SleepableTrait;
 
     public $age = 1;
 
