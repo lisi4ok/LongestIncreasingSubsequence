@@ -4,7 +4,7 @@ namespace Classes\Animals;
 
 class Dolphin
 {
-    use AnimalTrait;
+    use SleepableTrait;
 
     public $age = 5;
 
