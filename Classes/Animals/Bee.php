@@ -6,15 +6,7 @@ use AnimalTrait
 
 class Bee
 {
-    use SleepableTrait;
+    use SleepableTrait, FlyableTrait;
 
     public $age = 1;
-
-    /**
-     * @return string
-     */
-    public function fly()
-    {
-        return 'whoohooo';
-    }
 }
