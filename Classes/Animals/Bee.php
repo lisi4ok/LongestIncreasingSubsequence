@@ -6,9 +6,9 @@ use AnimalTrait
 
 class Bee
 {
-    public $age = 1;
-
     use AnimalTrait;
+
+    public $age = 1;
 
     /**
      * @return string
