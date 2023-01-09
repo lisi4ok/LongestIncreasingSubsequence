@@ -4,7 +4,7 @@ namespace Classes\Animals;
 
 class Lion
 {
-    use AnimalTrait;
+    use AnimalTrait, EatableTrait;
 
     public $age = 10;
 
@@ -14,13 +14,5 @@ class Lion
     public function roar()
     {
         return 'wrrrrr';
-    }
-
-    /**
-     * @return string
-     */
-    public function eat()
-    {
-        return 'yummy';
     }
 }
