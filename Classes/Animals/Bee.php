@@ -2,8 +2,6 @@
 
 namespace Classes\Animals;
 
-use AnimalTrait
-
 class Bee
 {
     use SleepableTrait, FlyableTrait;
