@@ -2,7 +2,7 @@
 
 namespace Classes\Animals;
 
-trait AnimalTrait
+trait SleepableTrait
 {
     /**
      * @return string
