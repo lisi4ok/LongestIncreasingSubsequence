@@ -4,23 +4,7 @@ namespace Classes\Animals;
 
 class Eagle
 {
-    use AnimalTrait;
+    use SleepableTrait, EatableTrait, FlyableTrait;
 
     public $age = 3;
-
-    /**
-     * @return string
-     */
-    public function fly()
-    {
-        return 'whoohooo';
-    }
-
-    /**
-     * @return string
-     */
-    public function eat()
-    {
-        return 'yummy';
-    }
 }
