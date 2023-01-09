@@ -4,15 +4,9 @@ namespace Classes\Animals;
 
 class Eagle
 {
-    public $age = 3;
+    use AnimalTrait;
 
-    /**
-     * @return string
-     */
-    public function sleep()
-    {
-        return 'zzzzzz';
-    }
+    public $age = 3;
 
     /**
      * @return string
