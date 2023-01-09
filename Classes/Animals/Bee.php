@@ -2,17 +2,13 @@
 
 namespace Classes\Animals;
 
+use AnimalTrait
+
 class Bee
 {
     public $age = 1;
 
-    /**
-     * @return string
-     */
-    public function sleep()
-    {
-        return 'zzzzzz';
-    }
+    use AnimalTrait;
 
     /**
      * @return string
