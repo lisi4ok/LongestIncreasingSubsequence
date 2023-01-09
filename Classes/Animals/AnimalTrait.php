@@ -2,7 +2,7 @@
 
 namespace Classes\Animals;
 
-abstract class Animal
+trait AnimalTrait
 {
     /**
      * @return string
