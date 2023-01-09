@@ -6,10 +6,7 @@ class Dolphin
 {
     public $age = 5;
 
-    public function sleep()
-    {
-        return 'zzzzzz';
-    }
+    use AnimalTrait;
 
     public function swim()
     {
